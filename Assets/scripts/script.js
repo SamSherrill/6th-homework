@@ -9,14 +9,14 @@ $(document).ready(function () {
 
     // city-submit-button will be the button near the search bar in the top left
     $("#city-submit-button").on("click", function (event) {
-                event.preventDefault();
-                var cityName = $("#city-input").val();
-                console.log(`cityName: ${cityName}`)
-                // I'll ned to append or prepend small cards (or similar) of the
-                // previously searched city names
+        event.preventDefault();
+        var cityName = $("#city-input").val();
+        console.log(`cityName: ${cityName}`)
+        // I'll ned to append or prepend small cards (or similar) of the
+        // previously searched city names
     });
 
     // I'll need to add a function for the API call
-    
+
     // Need function to add the current city's current weather details to the top right box
 });
