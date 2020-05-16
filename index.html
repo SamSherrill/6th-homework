@@ -7,8 +7,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"/>
-    <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" /> -->
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"/> -->
     <link rel="stylesheet" href="./Assets/styles/style.css">
 </head>
 
@@ -18,46 +17,18 @@
     </nav>
     <div class="container">
         <div class="row">
-            <div id="side-card" class="col-3">
-                <h4 id="city-search-h4"> Search for a City: </h4>
-                <form class="form-inline">
-                    <input id="city-input" class="form-control mr-sm-2" type="text" placeholder="Example: Atlanta"
-                        aria-label="Search" />
-                    <button id="city-submit-button" class="btn btn-outline-primary my-2 my-sm-0" type="submit">
-                        <i class="fas fa-search"></i>
-                    </button>
-                </form>
-                <ul id="city-list" class="list-group"></ul>
+            <div class="col-3">
+                <!-- search bar and city name cards got here -->
             </div>
-            <div id="weather-display" class="col-9">
-                <div id="city-forecast" class="row">
-                    <div class="col">
-                        <div class="display-city-name"></div>
-                        <div id="icon">
-                            <img class="collapse" id="wicon" src="" alt="Weather icon" />
-                        </div>
-                        <div class="description"></div>
-                        <div class="temp"></div>
-                        <div class="humidity"></div>
-                        <div class="wind"></div>
-                        <div class="uvindex"></div>
-                    </div>
-                </div>
-                <div id="five-day-forecast" class="row">
-                    <div id="day1" class="col"></div>
-                    <div id="day2" class="col"></div>
-                    <div id="day3" class="col"></div>
-                    <div id="day4" class="col"></div>
-                    <div id="day5" class="col"></div>
-                </div>
+            <div class="col-9">
+                <!-- Current city's details got here. Top of column will be current details.
+                Below that will be the 5 day forecast. That forecast will likely be 5 cards.
+                The current details may be a jumbotron, a large card, or a container somehow
+                bordered -->
             </div>
         </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <!-- Not sure that I need the popper.js script tag below  -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-    </script> -->
     <script src="./Assets/scripts/script.js"></script>
 </body>
 
